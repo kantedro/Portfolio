@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body  {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My style starts here*/ 
+body{
+	position: relative;
+	background-color: #fff;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+/*======Footer====*/
+footer {
+	background-color: #222831;
+	color: #FCDA05;
+	width: 100%;
+	text-align: center;
+	padding: 33px;
+	font-size: 85%;
+	position: absolute;
+  	height: 2.5rem; 
+}
+.correo{
+	text-decoration: none;
+	color: #FCDA05;
+}
+
+
+/*======Ends footer=====*/
+
+/*===== Home Page?=====*/
+.banner{
+	background-color: #FFFBE0;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding: 15px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFFBE0;
+	display: table;
+	width: 100%;
+}
+nav li {
+	display: table-cell
+  }
+nav li a {
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+li a:hover {
+	background-color: #FCDA05;
+  }
+
+.landingimg--firts{
+	width: 100%;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+#terceraimg{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 30px;
+		row-gap: 30px;
+	}
+
+/*========= About Page starts here===========*/ 
+.containerabout{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 3rem;
+	margin-top: 4rem;
+	text-align: center;
+}
+.abouth1{
+	color: #363C44;
+	font-weight: bold;
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+.profilepic{
+	margin-bottom: 25px;
+
+}
+.aboutp{
+	font-size: 14px;
+	font-style: italic;
+	color: #363C44;
+	line-height: 1rem;
+	margin-bottom: 5rem;
+	text-align: justify;
+}
+/*=======Contact Form======*/
+.contatcmaain{
+	background-image: url(/images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 25px;
+
+}
+
+
+H3{
+	font-weight: bold;
+	padding-bottom: 35px;
+	color: #FCDA05;
+	font-size: 20px;
+	padding-left: 35px;
+	padding-top: 35px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: horizontal;
+  }
+label{
+	color:#FCDA05;
+	font-weight: bold;
+}
+input {
+	background-color: #373D45;
+	color: #FCDA05;
+}
+textarea{
+	background-color: #373D45;
+	color: #FCDA05;
+}
+  
+  
+  .container {
+	border-radius: 5px;
+	padding: 20px 20px;
+	max-width: 100%;
+	padding-top: 30px;
+}
